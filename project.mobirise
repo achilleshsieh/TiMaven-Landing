@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "TiMaven-Splash",
-    "currentPage": "index.html",
+    "currentPage": "page6.html",
     "theme": {
       "name": "purity",
       "title": "PurityM",
@@ -13,15 +13,20 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.9.7",
     "siteFonts": [],
-    "favicon": "",
+    "favicon": false,
     "noImageResize": "",
     "siteUrl": "undefined",
     "google-analytics": "",
-    "cookiesAlert": "",
-    "gdpr": "",
-    "uniqCompNum": 37,
-    "versionPublish": "4.11.4",
-    "screenshot": "screenshot.png"
+    "cookiesAlert": false,
+    "gdpr": false,
+    "uniqCompNum": 71,
+    "versionPublish": "4.12.3",
+    "screenshot": "screenshot.png",
+    "": "on",
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "imageResize": true
   },
   "pages": {
     "index.html": {
@@ -68,7 +73,7 @@
             "fontName": {},
             "fontColor": "#000000"
           },
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">More</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Home</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TiMaven.html\">TiMaven Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"MavenConsulting.html\">Consulting</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Contact.html\">Contact Us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"http://demo.timaven.com\" target=\"_blank\">TiMaven Suite Demo</a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">More</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Home</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TiMavenSuite.html\">TiMaven Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Consulting.html\">Consulting</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Contact.html\">Contact Us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"http://demo.timaven.com\" target=\"_blank\">TiMaven Suite Demo</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -109,7 +114,7 @@
           },
           "title": "Maven, the word itself is a borrowing from the Yiddish meyvn, derived from the Hebrew, meaning a trusted expert in a particular field.<br><br>\n<div>\n</div><div>Since its inception, TiMaven, which is a combination of \"Time\" and \"Maven\" (Time Expert), is dedicated to provide software solutions to corporations in the Gulf Coast Region.&nbsp;</div>",
           "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"Contact.html\" data-toolbar=\"-mbrBtnMove\">Contact Us</a> ",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\">Contact Us</a> ",
           "alias": "purity/components",
           "_tags": [
             "Theme"
@@ -126,27 +131,6 @@
           }
         },
         {
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#080809",
-            "overlay": true,
-            "overlayColor": "#444444",
-            "overlayOpacity": 0.8
-          },
-          "text": "Copyright (c) TiMaven LLC.&nbsp;",
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "footer1",
-          "_anchor": "footer1-4"
-        },
-        {
           "_inherit": "msg-box5",
           "_params": {
             "showTitle": true,
@@ -155,8 +139,8 @@
             "showButtons": true,
             "inverse": true,
             "imageSize": "24",
-            "paddingTop": "2",
-            "paddingBottom": "2",
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "parallax": true,
@@ -198,9 +182,9 @@
             "Theme"
           ],
           "meta": "By John Smith posted July 30, 2015",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"TiMaven.html\" data-toolbar=\"-mbrBtnMove\">Learn More</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"TiMavenSuite.html\" data-toolbar=\"-mbrBtnMove\">Learn More</a>",
           "_name": "msg-box4",
-          "_anchor": "msg-box4-r",
+          "_anchor": "msg-box4-b",
           "_styles": {
             ".lead P": {
               "text-align": "right"
@@ -216,8 +200,8 @@
             "showButtons": true,
             "inverse": false,
             "imageSize": "24",
-            "paddingTop": "2",
-            "paddingBottom": "2",
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "parallax": true,
@@ -259,18 +243,156 @@
             "Theme"
           ],
           "meta": "By John Smith posted July 30, 2015",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"MavenConsulting.html\" data-toolbar=\"-mbrBtnMove\">Learn More</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Learn More</a>",
           "_name": "msg-box4",
-          "_anchor": "msg-box4-s",
+          "_anchor": "msg-box4-d",
           "_styles": {
             ".lead P": {
               "text-align": "left"
             }
           }
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#080809",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) &nbsp;TiMaven LLC.&nbsp;",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-4"
         }
       ]
     },
-    "TiMaven.html": {
+    "page1.html": {
+      "settings": {
+        "title": "Terms",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 6
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            },
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#000000"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "transparent": true,
+            "bgColor": "#ffffff",
+            "fontSize": 1,
+            "fontName": {},
+            "fontColor": "#000000"
+          },
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">More</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Home</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TiMavenSuite.html\">TiMaven Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Consulting.html\">Consulting</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Contact.html\">Contact Us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"http://demo.timaven.com\" target=\"_blank\">TiMaven Suite Demo</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-1-128x128.png",
+              "class": "",
+              "height": 128,
+              "alt": "TiMaven",
+              "link": "index.html",
+              "title": "TiMaven",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">TiMaven</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-0"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-1.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff8e0",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#ffffff",
+            "overlayOpacity": 0.5
+          },
+          "title": "Coming Soon...",
+          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Learn More</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-1"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#080809",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) &nbsp;TiMaven LLC.&nbsp;",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-4"
+        }
+      ]
+    },
+    "TiMavenSuite.html": {
       "settings": {
         "title": "TiMaven Suite",
         "meta_descr": "",
@@ -314,7 +436,7 @@
             "fontName": {},
             "fontColor": "#000000"
           },
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">More</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Home</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TiMaven.html\">TiMaven Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"MavenConsulting.html\">Consulting</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Contact.html\">Contact Us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"http://demo.timaven.com\" target=\"_blank\">TiMaven Suite Demo</a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">More</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Home</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TiMavenSuite.html\">TiMaven Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Consulting.html\">Consulting</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Contact.html\">Contact Us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"http://demo.timaven.com\" target=\"_blank\">TiMaven Suite Demo</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -331,7 +453,7 @@
             "Theme"
           ],
           "_name": "dropdown-menu",
-          "_anchor": "dropdown-menu-b"
+          "_anchor": "dropdown-menu-e"
         },
         {
           "_params": {
@@ -353,40 +475,44 @@
             "overlayColor": "#ffffff",
             "overlayOpacity": "0.5"
           },
-          "title": "Time management software<br> that brings efficiency to job site by streamlining the time reporting process<br>",
+          "title": "Time management software\r<div>that brings efficiency to job site by streamlining the time reporting process</div>",
           "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-secondary-outline\" href=\"Contact.html\" data-toolbar=\"-mbrBtnMove\">Contact Us</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"http://demo.timaven.com\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Demo Site</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"Contact.html\" data-toolbar=\"-mbrBtnMove\">Contact Us</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://demo.timaven.com\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Demo Site</a>",
           "alias": "purity/components",
           "_tags": [
             "Theme"
           ],
           "_name": "header1",
+          "_anchor": "header1-u",
           "_styles": {
+            "DIV": {
+              "font-size": "48px"
+            },
             "H1": {
-              "font-size": "48px",
-              "color": "#080809",
-              "text-align": "center"
+              "font-size": "48px"
             }
-          },
-          "_anchor": "header1-c"
+          }
         },
         {
-          "text": "TiMaven Suite Highlights",
+          "_params": {
+            "showMeta": false
+          },
+          "title": "TiMaven Suite Highlights",
+          "meta": "By John Smith posted July 30, 2015",
           "alias": "purity/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "content1",
+          "_name": "header3",
+          "_anchor": "header3-w",
           "_styles": {
-            "P": {
-              "font-size": "24px"
-            },
-            "DIV": {
+            "H3": {
               "text-align": "center",
+              "font-family": "'Alegreya Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
               "font-size": "48px"
             }
-          },
-          "_anchor": "content1-d"
+          }
         },
         {
           "_params": {
@@ -421,7 +547,7 @@
             "Theme"
           ],
           "_name": "content4",
-          "_anchor": "content4-e"
+          "_anchor": "content4-i"
         },
         {
           "_params": {
@@ -456,7 +582,81 @@
             "Theme"
           ],
           "_name": "content4",
-          "_anchor": "content4-f"
+          "_anchor": "content4-j"
+        },
+        {
+          "_params": {
+            "firstType": "bg-success",
+            "secondType": "bg-warning",
+            "thirdType": "bg-danger",
+            "fourthType": "bg-primary",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showButtons": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title1": "Free Trial",
+          "title2": "Single Site",
+          "title3": "Premium",
+          "title4": "Ultimate",
+          "currency1": "$",
+          "currency2": "$",
+          "currency3": "$",
+          "currency4": "$",
+          "price1": "0",
+          "price2": "49.99",
+          "price3": "46.99",
+          "price4": "39.99",
+          "period1": "per year",
+          "period2": "per employee per year",
+          "period3": "per employee per year",
+          "period4": "per employee per year",
+          "list1": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>10</b> Employees</li><li class=\"list-group-item\"><b>3&nbsp;</b>Users</li><li class=\"list-group-item\"><b>TiMaven SyncEngine Not Included</b></li></ul>",
+          "list2": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>Up to 1000</b> Employees</li><li class=\"list-group-item\"><b>Unlimited</b> Users</li><li class=\"list-group-item\"><b>TiMaven SyncEngine Not Included</b></li></ul>",
+          "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>Up to 5000 </b>Employees</li><li class=\"list-group-item\"><b>Unlimited</b> Users</li><li class=\"list-group-item\"><b>TiMaven SyncEngine Included</b></li></ul>",
+          "list4": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>Unlimited</b> Employees</li><li class=\"list-group-item\"><b>Unlimited</b> Users</li><li class=\"list-group-item\"><b>TiMaven SyncEngine Included</b></li></ul>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrBtnMove\">Demo</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">Demo</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">Demo</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">Demo</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "pricing-table1",
+          "_anchor": "pricing-table1-x"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#080809",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) &nbsp;TiMaven LLC.&nbsp;",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-k"
         },
         {
           "_inherit": "msg-box5",
@@ -467,8 +667,8 @@
             "showButtons": true,
             "inverse": true,
             "imageSize": 50,
-            "paddingTop": "2",
-            "paddingBottom": "2",
+            "paddingTop": 0,
+            "paddingBottom": 0,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "parallax": true,
@@ -512,94 +712,11 @@
           "meta": "By John Smith posted July 30, 2015",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"Contact.html\" data-toolbar=\"-mbrBtnMove\">Request a demo</a>",
           "_name": "msg-box4",
-          "_anchor": "msg-box4-v"
-        },
-        {
-          "_params": {
-            "firstType": "bg-success",
-            "secondType": "bg-warning",
-            "thirdType": "bg-danger",
-            "fourthType": "bg-primary",
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "showButtons": false,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#ffffff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "title1": "Free Trial",
-          "title2": "Single Site",
-          "title3": "Premium",
-          "title4": "Ultimate",
-          "currency1": "$",
-          "currency2": "$",
-          "currency3": "$",
-          "currency4": "$",
-          "price1": "0",
-          "price2": "49.99",
-          "price3": "46.99",
-          "price4": "39.99",
-          "period1": "&nbsp;per year",
-          "period2": "per employee per year",
-          "period3": "per employee per year",
-          "period4": "&nbsp;per employee per year",
-          "list1": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>10</b>&nbsp;Employees</li><li class=\"list-group-item\"><b>3</b> Users</li><li class=\"list-group-item\"><b>TiMaven SyncEngine Not Included</b></li></ul>",
-          "list2": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>Up to 1000</b> Employees</li><li class=\"list-group-item\"><b>Unlimited</b> Users</li><li class=\"list-group-item\"><b>TiMaven SyncEngine Not Included</b></li></ul>",
-          "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>Up to 5000 </b>Employees</li><li class=\"list-group-item\"><b>Unlimited</b> Users</li><li class=\"list-group-item\"><b>TiMaven SyncEngine Included</b></li></ul>",
-          "list4": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>Unlimited</b> Employees</li><li class=\"list-group-item\"><b>Unlimited</b> Users</li><li class=\"list-group-item\"><b>TiMaven SyncEngine Included</b></li></ul>",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">Demo</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">Demo</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">Demo</a>",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">Demo</a>",
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "pricing-table1",
-          "_anchor": "pricing-table1-t",
-          "_styles": {
-            "SPAN": {
-              "text-align": "center",
-              "font-size": "18px"
-            },
-            "DIV": {
-              "color": "#080809"
-            }
-          }
-        },
-        {
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#080809",
-            "overlay": true,
-            "overlayColor": "#444444",
-            "overlayOpacity": 0.8
-          },
-          "text": "Copyright (c) TiMaven LLC.&nbsp;",
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "footer1",
-          "_anchor": "footer1-g"
+          "_anchor": "msg-box4-l"
         }
       ]
     },
-    "MavenConsulting.html": {
+    "Consulting.html": {
       "settings": {
         "title": "Consulting",
         "meta_descr": "",
@@ -643,7 +760,7 @@
             "fontName": {},
             "fontColor": "#000000"
           },
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">More</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Home</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TiMaven.html\">TiMaven Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"MavenConsulting.html\">Consulting</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Contact.html\">Contact Us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"http://demo.timaven.com\" target=\"_blank\">TiMaven Suite Demo</a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">More</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Home</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TiMavenSuite.html\">TiMaven Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Consulting.html\">Consulting</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Contact.html\">Contact Us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"http://demo.timaven.com\" target=\"_blank\">TiMaven Suite Demo</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -660,7 +777,7 @@
             "Theme"
           ],
           "_name": "dropdown-menu",
-          "_anchor": "dropdown-menu-h"
+          "_anchor": "dropdown-menu-m"
         },
         {
           "_params": {
@@ -682,48 +799,195 @@
             "overlayColor": "#ffffff",
             "overlayOpacity": "0.8"
           },
-          "title": "Experienced Software Development Resource with Affordable Cost",
+          "title": "Experienced Software Development Resource at Affordable Cost",
           "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"Contact.html\" data-toolbar=\"-mbrBtnMove\">Contact Us</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"MavenConsulting.html#msg-box4-y\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Projects</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"Contact.html\" data-toolbar=\"-mbrBtnMove\">Contact Us</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"Consulting.html#msg-box4-o\" data-toolbar=\"-mbrBtnMove\">Projects</a>",
           "alias": "purity/components",
           "_tags": [
             "Theme"
           ],
           "_name": "header1",
+          "_anchor": "header1-y",
           "_styles": {
             "H1": {
               "font-size": "48px"
             }
-          },
-          "_anchor": "header1-i"
-        },
-        {
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#080809",
-            "overlay": true,
-            "overlayColor": "#444444",
-            "overlayOpacity": 0.8
-          },
-          "text": "Copyright (c) TiMaven LLC.&nbsp;",
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "footer1",
-          "_anchor": "footer1-m"
+          }
         },
         {
           "_inherit": "msg-box5",
           "_params": {
             "showTitle": true,
-            "showMeta": false,
-            "showText": false,
+            "showMeta": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
+            "imageSize": "27",
+            "paddingTop": "2",
+            "paddingBottom": "4",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/movie-app-design-1400x1050.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Festival Cine-Monument",
+          "text": "<p>This was an UI/UX and branding design project for the Festival Cine-Monument official app and promotion.&nbsp;</p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "meta": "2017, Paris, France",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning-outline btn-warning\" href=\"page6.html\" data-toolbar=\"-mbrBtnMove\">Learn More</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-1c"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showMeta": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": "25",
+            "paddingTop": "2",
+            "paddingBottom": "4",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/travel-app-design-1400x1050.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Travel Booking App",
+          "text": "<p>This was a mobile app UI/UX design project by our Chief Designer. The app released and has reached over 100k+ users.&nbsp;</p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "meta": "2020, France",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">More</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-1f"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showMeta": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
+            "imageSize": "21",
+            "paddingTop": "2",
+            "paddingBottom": "4",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/mbr-1400x788.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Medical Case Management System",
+          "text": "<p>Our team rewrote and transformed the client's web application into a scaleable solution, and saved the client over $1.5 million on development and $120,000 on monthly cloud services.&nbsp;</p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "meta": "Baton Rouge, USA",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning-outline btn-warning\" href=\"page5.html\" data-toolbar=\"-mbrBtnMove\">Learn More</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-1g"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showMeta": true,
+            "showText": true,
             "showButtons": false,
             "inverse": true,
             "imageSize": "17",
@@ -764,25 +1028,30 @@
             }
           },
           "title": "Ticket Vending Machine",
-          "text": "<p>Mobirise helps you cut down development time by providing you with a flexible website editor.</p>",
+          "text": "<p>Our CTO design and developed this movie ticket vending machine with Android app. At the end of the project, it was deployed to 80+ movie theatres in Beijing, China.&nbsp;</p>",
           "alias": "purity/components",
           "_tags": [
             "Theme"
           ],
-          "meta": "By John Smith posted July 30, 2015",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">More</a>",
+          "meta": "2013, Beijing, China",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Learn More</a>",
           "_name": "msg-box4",
-          "_anchor": "msg-box4-y"
+          "_styles": {
+            ".lead P": {
+              "text-align": "center"
+            }
+          },
+          "_anchor": "msg-box4-o"
         },
         {
           "_inherit": "msg-box5",
           "_params": {
             "showTitle": true,
-            "showMeta": false,
-            "showText": false,
+            "showMeta": true,
+            "showText": true,
             "showButtons": false,
             "inverse": false,
-            "imageSize": "23",
+            "imageSize": "29",
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
@@ -820,25 +1089,51 @@
             }
           },
           "title": "Car Dashboard",
-          "text": "<p>Mobirise helps you cut down development time by providing you with a flexible website editor.</p>",
+          "text": "<p>This was a project specifically designed for a leading automobile brand from Japan by our CTO. The product was deployed to 3 main models inside Japan.&nbsp;</p>",
           "alias": "purity/components",
           "_tags": [
             "Theme"
           ],
-          "meta": "By John Smith posted July 30, 2015",
+          "meta": "2013, Japan",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">More</a>",
           "_name": "msg-box4",
-          "_anchor": "msg-box4-z"
+          "_anchor": "msg-box4-p",
+          "_styles": {
+            ".lead P": {
+              "text-align": "center"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#080809",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) &nbsp;TiMaven LLC.&nbsp;",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-s"
         },
         {
           "_inherit": "msg-box5",
           "_params": {
             "showTitle": true,
-            "showMeta": false,
-            "showText": false,
+            "showMeta": true,
+            "showText": true,
             "showButtons": false,
             "inverse": true,
-            "imageSize": "10",
+            "imageSize": "9",
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
@@ -875,16 +1170,21 @@
               "size": 0
             }
           },
-          "title": "Vending Machine",
-          "text": "<p>Mobirise helps you cut down development time by providing you with a flexible website editor.</p>",
+          "title": "Vending Machine App",
+          "text": "<p>Our team developed this Android app specifically to be integrated with different imported vending machines. It was deployed to 500+ major metro stations, 100+ train stations, and 1600+ shopping malls in China. It can be managed separately or as a group. &nbsp;</p>",
           "alias": "purity/components",
           "_tags": [
             "Theme"
           ],
-          "meta": "By John Smith posted July 30, 2015",
+          "meta": "2015, China",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">More</a>",
           "_name": "msg-box4",
-          "_anchor": "msg-box4-10"
+          "_anchor": "msg-box4-t",
+          "_styles": {
+            ".lead P": {
+              "text-align": "center"
+            }
+          }
         }
       ]
     },
@@ -895,7 +1195,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 3
+        "order": 5
       },
       "components": [
         {
@@ -932,7 +1232,7 @@
             "fontName": {},
             "fontColor": "#000000"
           },
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">More</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Home</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TiMaven.html\">TiMaven Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"MavenConsulting.html\">Consulting</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Contact.html\">Contact Us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"http://demo.timaven.com\" target=\"_blank\">TiMaven Suite Demo</a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">More</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Home</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TiMavenSuite.html\">TiMaven Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Consulting.html\">Consulting</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Contact.html\">Contact Us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"http://demo.timaven.com\" target=\"_blank\">TiMaven Suite Demo</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1043,7 +1343,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Copyright (c) TiMaven LLC.&nbsp;",
+          "text": "Copyright (c) &nbsp;TiMaven LLC.&nbsp;",
           "alias": "purity/components",
           "_tags": [
             "Theme"
@@ -1053,9 +1353,263 @@
         }
       ]
     },
-    "Terms.html": {
+    "page5.html": {
       "settings": {
-        "title": "Terms",
+        "title": "CaseStudyMedical",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 3
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            },
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#000000"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "transparent": true,
+            "bgColor": "#ffffff",
+            "fontSize": 1,
+            "fontName": {},
+            "fontColor": "#000000"
+          },
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">More</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Home</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TiMavenSuite.html\">TiMaven Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Consulting.html\">Consulting</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Contact.html\">Contact Us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"http://demo.timaven.com\" target=\"_blank\">TiMaven Suite Demo</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-1-128x128.png",
+              "class": "",
+              "height": 128,
+              "alt": "TiMaven",
+              "link": "index.html",
+              "title": "TiMaven"
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">TiMaven</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-12"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true,
+            "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1400x788.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff8e0",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ffffff",
+            "overlayOpacity": "0.8"
+          },
+          "title": "<b>Case Studey:</b> <br>Delivered a solution that saved the client over $1.5 million on development and $120,000 on monthly cloud services.&nbsp;",
+          "text": "",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"Contact.html\" data-toolbar=\"-mbrBtnMove\">Contact Us</a> ",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            "H1": {
+              "font-size": "48px"
+            }
+          },
+          "_anchor": "header1-13"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showCaption": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.7
+          },
+          "title": "Project Brief",
+          "caption": "<p>It is a medical case review management system that is supposed to serve as an EMR for all 15 of the client's locations in and out of the US. The client spent close to $2 million over a period of 2 years and got a system that deployed to only 1 location and crashes almost daily. The monthly cloud service cost was over $10,000 for just 1 location. The client is frustrated. &nbsp;\r</p><p>Within 2 months, our team tuned up and released the existing system to support all client's locations, and cut down the monthly cloud service cost by 90%. \r</p><p>After that, our team worked on restructuring and migrating the system to a micro-service architecture. So far, the system is operating at all of client's locations with 99.9% availability and the monthly cloud service cost was further reduced to $300 per location.&nbsp;</p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-1l"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showName": true,
+            "showBio": true,
+            "count": "1",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "header": "Client Feedback",
+          "items": [
+            {
+              "authorName": "ABANOUB S.",
+              "authorBio": "User",
+              "text": "<em>“its really very amazing app that makes me finish html page in 3 minutes ( that's usually takes more than 1 hours at least from me if i did it from scratch). i hope to have very big library and plugins for this APP thanks again for your nice application”</em>"
+            },
+            {
+              "authorName": "SUFFIAN A.",
+              "authorBio": "User",
+              "text": "<em>“First of all hands off to you guys for your effort and nice, super tool. Good work mobirise team. We are expecting the new version soon with advance functionality with full bootstrap design. Great effort and super UI experience with easy drag & drop with no time design bootstrap builder in present web design world.”</em>"
+            },
+            {
+              "authorName": "JHOLLMAN C.",
+              "authorBio": "User",
+              "text": "<em>“At first view, looks like a nice innovative tool, i like the great focus and time that was given to the responsive design, i also like the simple and clear drag and drop features. Give me more control over the object's properties and ill be using this tool for more serious projects. Regards.”</em>"
+            }
+          ],
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials1",
+          "_anchor": "testimonials1-1k",
+          "testimonial": [
+            {
+              "authorName": "LIU B.",
+              "authorBio": "Architect @ Prime Medical",
+              "text": "<em>“As a team, TiMaven LLC is reliable and consistent, working well within their sprints and staying aware of milestones. Their skills and smooth approach make them a solid partner. ”</em>"
+            }
+          ]
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": false,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "imageSize": "25",
+            "paddingTop": "2",
+            "paddingBottom": "4",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/la-ent-logo-color-1316x626.png",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "",
+          "text": "<p>Prime Medical Customized Software was developed with support from Louisiana Economic Development's Office of Entertainment Industry Development</p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "meta": "Baton Rouge, USA",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning-outline btn-warning\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Learn More</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-16"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#080809",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) &nbsp;TiMaven LLC.&nbsp;",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-19"
+        }
+      ]
+    },
+    "page6.html": {
+      "settings": {
+        "title": "CaseStudyMovie",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
@@ -1097,7 +1651,7 @@
             "fontName": {},
             "fontColor": "#000000"
           },
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">More</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Home</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TiMaven.html\">TiMaven Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"MavenConsulting.html\">Consulting</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Contact.html\">Contact Us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"http://demo.timaven.com\" target=\"_blank\">TiMaven Suite Demo</a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">More</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Home</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TiMavenSuite.html\">TiMaven Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Consulting.html\">Consulting</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Contact.html\">Contact Us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"http://demo.timaven.com\" target=\"_blank\">TiMaven Suite Demo</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1106,8 +1660,7 @@
               "height": 128,
               "alt": "TiMaven",
               "link": "index.html",
-              "title": "TiMaven",
-              "linkInNewWindow": false
+              "title": "TiMaven"
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">TiMaven</a>",
@@ -1115,17 +1668,17 @@
             "Theme"
           ],
           "_name": "dropdown-menu",
-          "_anchor": "dropdown-menu-0"
+          "_anchor": "dropdown-menu-1m"
         },
         {
           "_params": {
             "showTitle": true,
             "showText": false,
-            "showButtons": false,
+            "showButtons": true,
             "showArrow": true,
             "contentAlign": "center",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/photo-1.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/movie-app-design-1400x1050.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff8e0",
@@ -1133,19 +1686,172 @@
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "overlay": false,
+            "overlay": true,
             "overlayColor": "#ffffff",
-            "overlayOpacity": 0.5
+            "overlayOpacity": "0.8"
           },
-          "title": "Coming Soon...",
-          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
-          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Learn More</a>",
+          "title": "<b>Case Studey:</b> <br>Complete branding package for 2017 Festival Cine-Monument in Paris, France&nbsp;",
+          "text": "",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"Contact.html\" data-toolbar=\"-mbrBtnMove\">Contact Us</a> ",
           "alias": "purity/components",
           "_tags": [
             "Theme"
           ],
           "_name": "header1",
-          "_anchor": "header1-1"
+          "_styles": {
+            "H1": {
+              "font-size": "48px"
+            }
+          },
+          "_anchor": "header1-1n"
+        },
+        {
+          "_params": {
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/prsentation-3-copy-1400x4254.jpg",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image1",
+          "_anchor": "image1-1s"
+        },
+        {
+          "_params": {
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/prsentation-3-copy-2-1400x3685.jpg",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image1",
+          "_anchor": "image1-1u"
+        },
+        {
+          "_params": {
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/free-beach-chair-mockup-1-1400x1050.jpg",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image1",
+          "_anchor": "image1-1v"
+        },
+        {
+          "_params": {
+            "showBullets": true,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgColor": "#efefef",
+            "images": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/osk1s31-2000x2852.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/osk1s31-2000x2852-800x1141.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/osk1se1-2000x3000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/osk1se1-2000x3000-800x1200.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/lanyard-id-badge-mockup-2-2000x2667.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/lanyard-id-badge-mockup-2-2000x2667-800x1067.jpg",
+                "alt": "",
+                "title": "",
+                "active": true
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/4-2000x1404.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/4-2000x1404-800x562.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/t-shirts-psd-mockup-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/t-shirts-psd-mockup-2000x1333-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/coffee-tea-cup-with-a-lid-and-another-cup-2000x1345.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/coffee-tea-cup-with-a-lid-and-another-cup-2000x1345-800x538.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/dvd-case-mockup-4-2000x1500.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dvd-case-mockup-4-2000x1500-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/wristband-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/wristband-2000x2000-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              }
+            ]
+          },
+          "articleLayout": false,
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_anchor": "gallery1-1x"
         },
         {
           "_params": {
@@ -1160,13 +1866,13 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Copyright (c) TiMaven LLC.&nbsp;",
+          "text": "Copyright (c) &nbsp;TiMaven LLC.&nbsp;",
           "alias": "purity/components",
           "_tags": [
             "Theme"
           ],
           "_name": "footer1",
-          "_anchor": "footer1-4"
+          "_anchor": "footer1-1r"
         }
       ]
     }
