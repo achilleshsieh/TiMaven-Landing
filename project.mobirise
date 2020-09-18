@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "TiMaven-Splash",
-    "currentPage": "Consulting.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "purity",
       "title": "PurityM",
@@ -114,7 +114,7 @@
           },
           "title": "Maven, the word itself is a borrowing from the Yiddish meyvn, derived from the Hebrew, meaning a trusted expert in a particular field.<br><br>\n<div>\n</div><div>Since its inception, TiMaven, which is a combination of \"Time\" and \"Maven\" (Time Expert), is dedicated to provide software solutions to corporations in the Gulf Coast Region.&nbsp;</div>",
           "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\">Contact Us</a> ",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"Contact.html\" data-toolbar=\"-mbrBtnMove\">Contact Us</a> ",
           "alias": "purity/components",
           "_tags": [
             "Theme"
@@ -243,7 +243,7 @@
             "Theme"
           ],
           "meta": "By John Smith posted July 30, 2015",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Learn More</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"Consulting.html\" data-toolbar=\"-mbrBtnMove\">Learn More</a>",
           "_name": "msg-box4",
           "_anchor": "msg-box4-d",
           "_styles": {
@@ -1406,7 +1406,7 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "Contact Form",
+          "title": "Let us know how we can help",
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Contact Us</a>",
           "form": {
             "action": "info@timaven.com",
@@ -1639,9 +1639,9 @@
           "header": "Client Feedback",
           "items": [
             {
-              "authorName": "ABANOUB S.",
-              "authorBio": "User",
-              "text": "<em>“its really very amazing app that makes me finish html page in 3 minutes ( that's usually takes more than 1 hours at least from me if i did it from scratch). i hope to have very big library and plugins for this APP thanks again for your nice application”</em>"
+              "authorName": "LIU B.",
+              "authorBio": "Architect @ Prime Medical",
+              "text": "<em>“As a team, TiMaven LLC is reliable and consistent, working well within their sprints and staying aware of milestones. Their skills and smooth approach make them a solid partner. ”</em>"
             },
             {
               "authorName": "SUFFIAN A.",
