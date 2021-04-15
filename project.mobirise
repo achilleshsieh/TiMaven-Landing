@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "TiMaven-Splash",
-    "currentPage": "index.html",
+    "currentPage": "Posting.html",
     "theme": {
       "name": "purity",
       "title": "PurityM",
@@ -19,7 +19,7 @@
     "google-analytics": "",
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 74,
+    "uniqCompNum": 81,
     "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
     "": "on",
@@ -282,7 +282,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 6
+        "order": 7
       },
       "components": [
         {
@@ -2013,6 +2013,120 @@
           ],
           "_name": "footer1",
           "_anchor": "footer1-1r"
+        }
+      ]
+    },
+    "Posting.html": {
+      "settings": {
+        "title": "Posting",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 6
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            },
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#000000"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "transparent": true,
+            "bgColor": "#ffffff",
+            "fontSize": 1,
+            "fontName": {},
+            "fontColor": "#000000"
+          },
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">More</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Home</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TiMavenSuite.html\">TiMaven Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Consulting.html\">Consulting</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Contact.html\">Contact Us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"http://demo.timaven.com\" target=\"_blank\">Schedule a Free Demo</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-1-128x128.png",
+              "class": "",
+              "height": 128,
+              "alt": "TiMaven",
+              "link": "index.html",
+              "title": "TiMaven",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">TiMaven</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-22"
+        },
+        {
+          "_params": {
+            "showMeta": false
+          },
+          "title": "Senior Software Developer",
+          "meta": "By John Smith posted July 30, 2015",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-27"
+        },
+        {
+          "text": "<p>TiMaven, LLC is hiring a full-time Senior Software Developer position. \n</p><p><b>Job Duties:\n</b></p><p>1.\tAnalyze information and user needs to conceive, design, implement and troubleshoot Web Applications. \n</p><p>2.\tConfer with data processing and project managers to build-out complimentary Mobile Applications including Android and IOS from concept to final implementation. \n</p><p>3.\tDetermine feasibility of new and proposed designs within time and cost constraints. \n</p><p>4.\tUtilize data management and big data for various analyses across departments and metrics. \n</p><p>5.\tObtain and evaluate information on factors such as reporting formats required, costs, or security needs to determine hardware configurations. \n</p><p>6.\tManage the IT infrastructure from testing, building and deployment to release and operation. \n</p><p>7.\tMonitor and analyze website and mobile app’s load and be ready with infrastructure able to scale up the apps according to requirements. \n</p><p>8.\tOversee work of, and confer with, Senior Software Developer, Junior Software Developer, Data analyst.\n</p><p>\n</p><p><b>Job Requirements:\n</b></p><p>Master’s Degree in Computer Science or related  \n</p><p>36 months as Software Developer, Software Engineer or related position.\n</p><p>Deep knowledge of web development, Spring, microservice architecture.\n</p><p>Expertise with Java, JSP, JS, HTML, CSS, JQuery, Hibernate, Databases (Postgesql), Version control, and Docker. \n</p><p>Extensive experience with Java and Android App Design and Implementation, Agile and professional software development cycle (API design, version control(Git), peer code review, unit testing).\n</p><p>\n</p><p>Any applicant who is interested may submit resume w/code “TIMAVEN2021” to: TiMaven, LLC, 7117 Florida Blvd., Baton Rouge, LA 70806\n</p><p>\n</p><p><b>Job Criteria:\n</b></p><p>Position Type: Full-Time Permanent\n</p><p>Education Required: Master’s Degree\n</p><p>\n</p><p><b>Contact Information:\n</b></p><p>Contact Name: Richard Xie\n</p><p>Company: TiMaven, LLC\n</p><p>City: Baton Rouge\n</p><p>State: Louisiana\n</p><p>Zip: 70806\n</p><p><br></p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-28",
+          "_styles": {
+            "P": {
+              "font-size": "15px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#080809",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) &nbsp;TiMaven LLC.&nbsp;",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-25"
         }
       ]
     }
