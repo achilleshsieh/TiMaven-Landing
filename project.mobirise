@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "TiMaven-Splash",
-    "currentPage": "index.html",
+    "currentPage": "page6.html",
     "theme": {
       "name": "purity",
       "title": "PurityM",
@@ -75,7 +75,7 @@
             "fontName": {},
             "fontColor": "#080809"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">More</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Home</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TiMavenSuite.html\">TiMaven Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Consulting.html\">Consulting</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Contact.html\">Contact Us<br></a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"Posting.html\">Working for us</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Contact.html\"></a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"Posting.html\"></a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"http://demo.timaven.com\" target=\"_blank\">Schedule a Free Demo</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">More</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Home</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TiMavenSuite.html\">TiMaven Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Consulting.html\">Consulting</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Contact.html\">Contact Us<br></a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"Posting.html\">Working for us</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Contact.html\"></a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"Posting.html\"></a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"https://calendly.com/timaven/30min\">Schedule a Free Consultation</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -298,7 +298,7 @@
             },
             ".nav .link, .dropdown-item": {
               "font-size": "1em",
-              "color": "#000000"
+              "color": "#080809"
             },
             ".navbar, .dropdown-menu": {
               "background": "#ffffff"
@@ -307,7 +307,7 @@
               "background": "#f5f5f5"
             },
             ".navbar-toggler": {
-              "color": "#000000"
+              "color": "#080809"
             }
           },
           "_params": {
@@ -321,7 +321,7 @@
             "fontName": {},
             "fontColor": "#080809"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">More</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Home</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TiMavenSuite.html\">TiMaven Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Consulting.html\">Consulting</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Contact.html\">Contact Us<br></a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"Posting.html\">Working for us</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Contact.html\"></a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"Posting.html\"></a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"http://demo.timaven.com\" target=\"_blank\">Schedule a Free Demo</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">More</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Home</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TiMavenSuite.html\">TiMaven Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Consulting.html\">Consulting</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Contact.html\">Contact Us<br></a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"Posting.html\">Working for us</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Contact.html\"></a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"Posting.html\"></a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"https://calendly.com/timaven/30min\">Schedule a Free Consultation</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -438,7 +438,7 @@
             "fontName": {},
             "fontColor": "#080809"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">More</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Home</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TiMavenSuite.html\">TiMaven Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Consulting.html\">Consulting</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Contact.html\">Contact Us<br></a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"Posting.html\">Working for us</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Contact.html\"></a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"Posting.html\"></a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"http://demo.timaven.com\" target=\"_blank\">Schedule a Free Demo</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">More</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Home</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TiMavenSuite.html\">TiMaven Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Consulting.html\">Consulting</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Contact.html\">Contact Us<br></a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"Posting.html\">Working for us</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Contact.html\"></a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"Posting.html\"></a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"https://calendly.com/timaven/30min\">Schedule a Free Consultation</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -479,7 +479,7 @@
           },
           "title": "Time management software\r<div>that brings efficiency to job site by streamlining the time reporting process</div>",
           "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"Contact.html\" data-toolbar=\"-mbrBtnMove\">Schedule a Free Demo</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://demo.timaven-pro.com\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Demo Site</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://calendly.com/timaven/30min\" data-toolbar=\"-mbrBtnMove\">Schedule a Free Demo</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://demo.timaven-pro.com\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Demo Site</a>",
           "alias": "purity/components",
           "_tags": [
             "Theme"
@@ -739,7 +739,7 @@
             },
             ".nav .link, .dropdown-item": {
               "font-size": "1em",
-              "color": "#000000"
+              "color": "#080809"
             },
             ".navbar, .dropdown-menu": {
               "background": "#ffffff"
@@ -748,7 +748,7 @@
               "background": "#f5f5f5"
             },
             ".navbar-toggler": {
-              "color": "#000000"
+              "color": "#080809"
             }
           },
           "_params": {
@@ -762,7 +762,7 @@
             "fontName": {},
             "fontColor": "#080809"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">More</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Home</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TiMavenSuite.html\">TiMaven Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Consulting.html\">Consulting</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Contact.html\">Contact Us<br></a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"Posting.html\">Working for us</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Contact.html\"></a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"Posting.html\"></a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"http://demo.timaven.com\" target=\"_blank\">Schedule a Free Demo</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">More</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Home</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TiMavenSuite.html\">TiMaven Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Consulting.html\">Consulting</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Contact.html\">Contact Us<br></a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"Posting.html\">Working for us</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Contact.html\"></a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"Posting.html\"></a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"https://calendly.com/timaven/30min\">Schedule a Free Consultation</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -803,7 +803,7 @@
           },
           "title": "Experienced Software Development Resource at Affordable Cost",
           "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"Contact.html\" data-toolbar=\"-mbrBtnMove\">Schedule a Free Consultation</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"Consulting.html#msg-box4-1c\" data-toolbar=\"-mbrBtnMove\">Projects</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://calendly.com/timaven/30min\" data-toolbar=\"-mbrBtnMove\">Schedule a Free Consultation</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"Consulting.html#msg-box4-1c\" data-toolbar=\"-mbrBtnMove\">Projects</a>",
           "alias": "purity/components",
           "_tags": [
             "Theme"
@@ -1351,7 +1351,7 @@
             },
             ".nav .link, .dropdown-item": {
               "font-size": "1em",
-              "color": "#000000"
+              "color": "#080809"
             },
             ".navbar, .dropdown-menu": {
               "background": "#ffffff"
@@ -1360,7 +1360,7 @@
               "background": "#f5f5f5"
             },
             ".navbar-toggler": {
-              "color": "#000000"
+              "color": "#080809"
             }
           },
           "_params": {
@@ -1374,7 +1374,7 @@
             "fontName": {},
             "fontColor": "#080809"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">More</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Home</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TiMavenSuite.html\">TiMaven Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Consulting.html\">Consulting</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Contact.html\">Contact Us<br></a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"Posting.html\">Working for us</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Contact.html\"></a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"Posting.html\"></a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"http://demo.timaven.com\" target=\"_blank\">Schedule a Free Demo</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">More</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Home</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TiMavenSuite.html\">TiMaven Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Consulting.html\">Consulting</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Contact.html\">Contact Us<br></a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"Posting.html\">Working for us</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Contact.html\"></a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"Posting.html\"></a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"https://calendly.com/timaven/30min\">Schedule a Free Consultation</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1516,7 +1516,7 @@
             },
             ".nav .link, .dropdown-item": {
               "font-size": "1em",
-              "color": "#000000"
+              "color": "#080809"
             },
             ".navbar, .dropdown-menu": {
               "background": "#ffffff"
@@ -1525,7 +1525,7 @@
               "background": "#f5f5f5"
             },
             ".navbar-toggler": {
-              "color": "#000000"
+              "color": "#080809"
             }
           },
           "_params": {
@@ -1539,7 +1539,7 @@
             "fontName": {},
             "fontColor": "#080809"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">More</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Home</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TiMavenSuite.html\">TiMaven Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Consulting.html\">Consulting</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Contact.html\">Contact Us<br></a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"Posting.html\">Working for us</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Contact.html\"></a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"Posting.html\"></a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"http://demo.timaven.com\" target=\"_blank\">Schedule a Free Demo</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">More</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Home</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TiMavenSuite.html\">TiMaven Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Consulting.html\">Consulting</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Contact.html\">Contact Us<br></a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"Posting.html\">Working for us</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Contact.html\"></a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"Posting.html\"></a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"https://calendly.com/timaven/30min\">Schedule a Free Consultation</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1580,7 +1580,7 @@
           },
           "title": "<b>Case Studey:</b> <br>Delivered a solution that saved the client over $1.5 million on development and $120,000 on monthly cloud services.&nbsp;",
           "text": "",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"Contact.html\" data-toolbar=\"-mbrBtnMove\">Schedule a Free Consultation</a> ",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"https://calendly.com/timaven/30min\" data-toolbar=\"-mbrBtnMove\">Schedule a Free Consultation</a> ",
           "alias": "purity/components",
           "_tags": [
             "Theme"
@@ -1770,7 +1770,7 @@
             },
             ".nav .link, .dropdown-item": {
               "font-size": "1em",
-              "color": "#000000"
+              "color": "#080809"
             },
             ".navbar, .dropdown-menu": {
               "background": "#ffffff"
@@ -1779,7 +1779,7 @@
               "background": "#f5f5f5"
             },
             ".navbar-toggler": {
-              "color": "#000000"
+              "color": "#080809"
             }
           },
           "_params": {
@@ -1793,7 +1793,7 @@
             "fontName": {},
             "fontColor": "#080809"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">More</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Home</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TiMavenSuite.html\">TiMaven Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Consulting.html\">Consulting</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Contact.html\">Contact Us<br></a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"Posting.html\">Working for us</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Contact.html\"></a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"Posting.html\"></a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"http://demo.timaven.com\" target=\"_blank\">Schedule a Free Demo</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">More</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Home</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TiMavenSuite.html\">TiMaven Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Consulting.html\">Consulting</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Contact.html\">Contact Us<br></a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"Posting.html\">Working for us</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Contact.html\"></a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"Posting.html\"></a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"https://calendly.com/timaven/30min\">Schedule a Free Consultation</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1834,7 +1834,7 @@
           },
           "title": "<b>Case Studey:</b> <br>Complete branding package for 2017 Festival Cine-Monument in Paris, France&nbsp;",
           "text": "",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"Contact.html\" data-toolbar=\"-mbrBtnMove\">Schedule a Free Consultation</a> ",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"https://calendly.com/timaven/30min\" data-toolbar=\"-mbrBtnMove\">Schedule a Free Consultation</a> ",
           "alias": "purity/components",
           "_tags": [
             "Theme"
@@ -2062,7 +2062,7 @@
             "fontName": {},
             "fontColor": "#080809"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">More</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Home</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TiMavenSuite.html\">TiMaven Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Consulting.html\">Consulting</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Contact.html\">Contact Us<br></a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"Posting.html\">Working for us</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Contact.html\"></a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"Posting.html\"></a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"http://demo.timaven.com\" target=\"_blank\">Schedule a Free Demo</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">More</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Home</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TiMavenSuite.html\">TiMaven Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Consulting.html\">Consulting</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Contact.html\">Contact Us<br></a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"Posting.html\">Working for us</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Contact.html\"></a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"Posting.html\"></a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"https://calendly.com/timaven/30min\">Schedule a Free Consultation</a></li>",
           "logo": {
             "image": {
               "active": true,
