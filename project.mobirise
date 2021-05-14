@@ -27,8 +27,8 @@
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
     "imageResize": false,
-    "publishChangesOnly": true,
-    "mbrsiteDomain": "urjeiwrxqf",
+    "publishChangesOnly": false,
+    "mbrsiteDomain": "s0bia9lsbg",
     "robotsText": "User-agent: Googlebot\nDisallow: /nogooglebot/\n\n"
   },
   "pages": {
