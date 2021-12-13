@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "TiMaven-Splash",
-    "currentPage": "TermsOfUse.html",
+    "currentPage": "TiMavenSuite.html",
     "theme": {
       "name": "purity",
       "title": "PurityM",
@@ -19,7 +19,7 @@
     "google-analytics": "",
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 82,
+    "uniqCompNum": 83,
     "versionPublish": "5.3.0",
     "screenshot": "screenshot.png",
     "": "on",
@@ -115,7 +115,7 @@
             "overlayColor": "#ffffff",
             "overlayOpacity": "0.5"
           },
-          "title": "Maven, the word itself is a borrowing from the Yiddish meyvn, derived from the Hebrew, meaning a trusted expert in a particular field.<br><br>\n<div>\n</div><div>Since its inception, TiMaven, which is a combination of \"Time\" and \"Maven\" (Time Expert), is dedicated to provide software solutions to corporations in the Gulf Coast Region.&nbsp;</div>",
+          "title": "Customized Solution <br>for an out-of-box price",
           "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://calendly.com/timaven/30min\" data-toolbar=\"-mbrBtnMove\">Schedule a Free Consultation</a> ",
           "alias": "purity/components",
@@ -126,7 +126,9 @@
           "_anchor": "header1-1",
           "_styles": {
             "H1": {
-              "font-size": "32px"
+              "font-size": "60px",
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px"
             },
             "DIV": {
               "font-size": "32px"
@@ -179,7 +181,7 @@
             }
           },
           "title": "TiMaven Suite",
-          "text": "<p>A combination of \"Time\" and \"Maven\" (Time Expert), TiMaven Suite is dedicated to address the efficiency issue for time management for industrial construction industry. Backed by years of industry experience from the owner, TiMaven Suite is engineered perfectly to integrate with other clocking system and provide a reliable, accurate, easy-to-use, flexible and efficient time management solution.</p>",
+          "text": "<p>Backed by years of industry experience from the owner, TiMaven Suite is engineered perfectly to address the efficiency issue in contract billing for the industrial construction industry. It has capability to integrate with 3rd party system (ERP or clocking system) and provide a reliable, accurate, easy-to-use, flexible and efficient contract billing solution, including labor, equipment, and reimbursable materials.</p>",
           "alias": "purity/components",
           "_tags": [
             "Theme"
@@ -190,7 +192,7 @@
           "_anchor": "msg-box4-b",
           "_styles": {
             ".lead P": {
-              "text-align": "right"
+              "text-align": "left"
             }
           }
         },
@@ -361,7 +363,7 @@
             "overlayColor": "#ffffff",
             "overlayOpacity": "0.5"
           },
-          "title": "Time management software\r<div>that brings efficiency to job site by streamlining the time reporting process</div>",
+          "title": "Customized Contract Billing Solution for an out-of-box price",
           "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://calendly.com/timaven/30min\" data-toolbar=\"-mbrBtnMove\">Schedule a Free Demo</a> ",
           "alias": "purity/components",
@@ -375,7 +377,71 @@
               "font-size": "48px"
             },
             "H1": {
-              "font-size": "48px"
+              "font-size": "48px",
+              "color": "#080809"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showName": true,
+            "showBio": true,
+            "count": "1",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "header": "What Our Fantastic Users Say",
+          "items": [
+            {
+              "authorName": "Adam S. <br>",
+              "authorBio": "Corporate Project Controls Manager at an industrial construction contractor with 3000 employees",
+              "text": "<em>“Over years, we have been looking for a web based customizable solution to process our timekeeping and cost reporting. Our industry produces many challenges in field accounting efforts that require flexibility in all our software applications. Nothing really fit our needs until TiMaven. It helps us streamline field daily time entry, per diem payments, travel pay, material reimbursement, etc., with a quick turnaround on our weekly payroll process. It checks all the boxes for us and is customized to fit with our ERP system. On top of that, the customer service experience is superb. Richard and Shane were just a phone call away to all our requests and concerns. So far, it has been a great journey with them, and we have already rolled out the software to more than 38 job sites.”</em>"
+            },
+            {
+              "authorName": "SUFFIAN A.",
+              "authorBio": "User",
+              "text": "<em>“First of all hands off to you guys for your effort and nice, super tool. Good work mobirise team. We are expecting the new version soon with advance functionality with full bootstrap design. Great effort and super UI experience with easy drag & drop with no time design bootstrap builder in present web design world.”</em>"
+            },
+            {
+              "authorName": "JHOLLMAN C.",
+              "authorBio": "User",
+              "text": "<em>“At first view, looks like a nice innovative tool, i like the great focus and time that was given to the responsive design, i also like the simple and clear drag and drop features. Give me more control over the object's properties and ill be using this tool for more serious projects. Regards.”</em>"
+            }
+          ],
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials1",
+          "_anchor": "testimonials1-2a",
+          "testimonial": [
+            {
+              "authorName": "Adam S. <br>",
+              "authorBio": "Corporate Project Controls Manager at an industrial construction contractor with 3000 employees",
+              "text": "<em>“Over years, we have been looking for a web based customizable solution to process our timekeeping and cost reporting. Our industry produces many challenges in field accounting efforts that require flexibility in all our software applications. Nothing really fit our needs until TiMaven. It helps us streamline field daily time entry, per diem payments, travel pay, material reimbursement, etc., with a quick turnaround on our weekly payroll process. It checks all the boxes for us and is customized to fit with our ERP system. On top of that, the customer service experience is superb. Richard and Shane were just a phone call away to all our requests and concerns. So far, it has been a great journey with them, and we have already rolled out the software to more than 38 job sites.”</em>"
+            }
+          ],
+          "_styles": {
+            ".card-block": {
+              "text-align": "left"
+            },
+            ".card-footer > div": {
+              "text-align": "left"
+            },
+            ".card-footer > small": {
+              "text-align": "right"
+            },
+            ".card-block EM": {
+              "font-size": "23px"
             }
           }
         },
@@ -543,62 +609,6 @@
           ],
           "_name": "footer1",
           "_anchor": "footer1-k"
-        },
-        {
-          "_inherit": "msg-box5",
-          "_params": {
-            "showTitle": true,
-            "showMeta": false,
-            "showText": true,
-            "showButtons": true,
-            "inverse": true,
-            "imageSize": 50,
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#fff",
-            "overlayOpacity": 0.5
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/timaven-960x720.jpg",
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box4",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title": "TiMaven SyncEngine",
-          "text": "<p>Designed to help job sites to synchronize project data with corporate seamlessly.&nbsp;</p>",
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "meta": "By John Smith posted July 30, 2015",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"Contact.html\" data-toolbar=\"-mbrBtnMove\">Schedule a Free Demo</a>",
-          "_name": "msg-box4",
-          "_anchor": "msg-box4-l"
         }
       ]
     },
@@ -1749,34 +1759,6 @@
         {
           "_params": {
             "showTitle": true,
-            "showCaption": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#fff",
-            "overlayOpacity": 0.7
-          },
-          "title": "Project Brief",
-          "caption": "<p>It is a medical case review management system that is supposed to serve as an EMR for all 15 of the client's locations in and out of the US. The client spent close to $2 million over a period of 2 years and got a system that deployed to only 1 location and crashes almost daily. The monthly cloud service cost was over $10,000 for just 1 location. The client is frustrated. &nbsp;\r</p><p>Within 2 months, our team tuned up and released the existing system to support all client's locations, and cut down the monthly cloud service cost by 90%. \r</p><p>After that, our team worked on restructuring and migrating the system to a micro-service architecture. So far, the system is operating at all of client's locations with 99.9% availability and the monthly cloud service cost was further reduced to $300 per location.&nbsp;</p>",
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content5",
-          "_anchor": "content5-1l"
-        },
-        {
-          "_params": {
-            "showTitle": true,
             "showName": true,
             "showBio": true,
             "count": "1",
@@ -1822,6 +1804,34 @@
               "text": "<em>“As a team, TiMaven LLC is reliable and consistent, working well within their sprints and staying aware of milestones. Their skills and smooth approach make them a solid partner. ”</em>"
             }
           ]
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showCaption": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.7
+          },
+          "title": "Project Brief",
+          "caption": "<p>It is a medical case review management system that is supposed to serve as an EMR for all 15 of the client's locations in and out of the US. The client spent close to $2 million over a period of 2 years and got a system that deployed to only 1 location and crashes almost daily. The monthly cloud service cost was over $10,000 for just 1 location. The client is frustrated. &nbsp;\r</p><p>Within 2 months, our team tuned up and released the existing system to support all client's locations, and cut down the monthly cloud service cost by 90%. \r</p><p>After that, our team worked on restructuring and migrating the system to a micro-service architecture. So far, the system is operating at all of client's locations with 99.9% availability and the monthly cloud service cost was further reduced to $300 per location.&nbsp;</p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-1l"
         },
         {
           "_inherit": "msg-box5",
