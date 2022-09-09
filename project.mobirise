@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "TiMaven-Splash",
-    "currentPage": "TiMavenSuite.html",
+    "currentPage": "OpenPosition.html",
     "theme": {
       "name": "purity",
       "title": "PurityM",
@@ -19,8 +19,8 @@
     "google-analytics": "",
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 83,
-    "versionPublish": "5.3.0",
+    "uniqCompNum": 88,
+    "versionPublish": "5.5.2",
     "screenshot": "screenshot.png",
     "": "on",
     "robotsSwitcher": true,
@@ -28,7 +28,7 @@
     "sitemapSwitcherAuto": false,
     "imageResize": false,
     "publishChangesOnly": true,
-    "mbrsiteDomain": "s0bia9lsbg",
+    "mbrsiteDomain": "5fpffdfvtd",
     "robotsText": "User-agent: Googlebot\nDisallow: /nogooglebot/\n\n"
   },
   "pages": {
@@ -287,7 +287,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -619,7 +619,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -1231,7 +1231,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 5
+        "order": 6
       },
       "components": [
         {
@@ -1396,7 +1396,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -1665,7 +1665,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -2026,6 +2026,152 @@
           ],
           "_name": "footer1",
           "_anchor": "footer1-4"
+        }
+      ]
+    },
+    "OpenPosition.html": {
+      "settings": {
+        "title": "WorkForUs",
+        "order": 1,
+        "meta_descr": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            },
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#080809"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#080809"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "transparent": true,
+            "bgColor": "#ffffff",
+            "fontSize": 1,
+            "fontName": {},
+            "fontColor": "#080809"
+          },
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">More</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Home</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"TiMavenSuite.html\">TiMaven Suite</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Consulting.html\">Consulting</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Contact.html\">Contact Us<br></a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"Posting.html\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Contact.html\"></a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"Posting.html\"></a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"https://calendly.com/timaven/30min\">Schedule a Free Consultation</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-1-128x128.png",
+              "class": "",
+              "height": 128,
+              "alt": "TiMaven",
+              "link": "index.html",
+              "title": "TiMaven",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">TiMaven</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-2b"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showCaption": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.7
+          },
+          "title": "Senior Software Developer",
+          "caption": "<p>TiMaven, LLC is hiring a full-time Senior Software Developer position.&nbsp;</p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-2d"
+        },
+        {
+          "text": "<p>Job Duties:\r</p><p>1.\tAnalyze information and user needs to conceive, design, implement and troubleshoot Web Applications. \r</p><p>2.\tConfer with data processing and project managers to build-out complimentary Mobile Applications including Android and IOS from concept to final implementation. \r</p><p>3.\tDetermine feasibility of new and proposed designs within time and cost constraints. \r</p><p>4.\tUtilize data management and big data for various analyses across departments and metrics. \r</p><p>5.\tObtain and evaluate information on factors such as reporting formats required, costs, or security needs to determine hardware configurations. \r</p><p>6.\tManage the IT infrastructure from testing, building and deployment to release and operation. \r</p><p>7.\tMonitor and analyze website and mobile app’s load and be ready with infrastructure able to scale up the apps according to requirements. \r</p><p>8.\tOversee work of, and confer with, Senior Software Developer, Junior Software Developer, Data analyst.\r</p><p>Job Requirements:\r</p><p>Master’s Degree in Computer Science or related  \r</p><p>36 months as Software Developer, Software Engineer or related position.\r</p><p>Deep knowledge of web development, Spring, microservice architecture.\r</p><p>Expertise with Java, JSP, JS, HTML, CSS, JQuery, Hibernate, Databases (Postgesql), Version control, and Docker. \r</p><p>Extensive experience with Java and Android App Design and Implementation, Agile and professional software development cycle (API design, version control(Git), peer code review, unit testing).\r</p><p>Any applicant who is interested may submit resume w/code “TIMAVEN2022” to: TiMaven, LLC, 7117 Florida Blvd., Baton Rouge, LA 70806\r</p><p>Job Criteria:\r</p><p>Position Type: Full-Time Permanent\r</p><p>Education Required: Master’s Degree\r</p><p>Contact Information:\r</p><p>Contact Name: Maoyuan Xie\r</p><p>Company: TiMaven, LLC\r</p><p>City: Baton Rouge\r</p><p>State: Louisiana\r</p><p>Zip: 70806</p><p>\r</p><p>\r</p><p>\r</p><p>\r</p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-2e"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5,
+            "counters": true,
+            "facebook": true,
+            "twitter": true,
+            "google": true
+          },
+          "text": "Share This Page!",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons1",
+          "_anchor": "social-buttons1-2f"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#080809",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) &nbsp;TiMaven LLC.&nbsp;",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-2c"
         }
       ]
     }
